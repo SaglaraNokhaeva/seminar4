@@ -4,3 +4,8 @@
 # ✔ Диапазон пар ключ-значение от наименьшего из введённых
 # пользователем чисел до наибольшего включительно.
 
+def make_dict(str_input):
+    beg, end = sorted(str_input.split())
+    return {ord(str(x)): x for x in range(int(beg), int(end)+1)}
+
+print(make_dict('3 7'))
