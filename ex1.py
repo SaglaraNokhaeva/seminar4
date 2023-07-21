@@ -12,4 +12,5 @@ def str_printer(str_input):
         res = res + (f"{n} {s:>{maxx}}\n")
     return res
 
+
 print(str_printer(('Карл у Клары украл кораллы.')))
