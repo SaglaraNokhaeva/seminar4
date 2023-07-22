@@ -11,8 +11,6 @@ def buble_sort(sorted_list):
         for j in range(str_size-i-1):
             if sorted_list[j] > sorted_list[j+1]:
                 sorted_list[j], sorted_list[j+1] = sorted_list[j+1], sorted_list[j]
-    return sorted_list
-
 
 
 my_list = [randint(0, 100) for i in range(str_size)]
