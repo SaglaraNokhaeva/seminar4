@@ -16,5 +16,6 @@ def buble_sort(sorted_list):
 
 print(my_list := [randint(0, 100) for i in
                   range(str_size)])  # рандомно создаём лист из  str_size элементов в пределах от 0 до 99
+# a, b = b, a  или можно так: a, b, c = c, a, b и т.д.
 buble_sort(my_list)
 print(my_list)
